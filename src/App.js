@@ -1,19 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-
+import Input from './Components/Input'
 
 function App() {
   return (
-    <div>
-      <span>Picture: </span>
-      <input type='text' placeholder='image url' />
-      <span>Name: </span>
-      <input type='text' placeholder='name' />
-      <button>Add Friend</button>
-    </div>
-  );
+  <div className="App">
+    <Input/>
+  </div>
+  )
 }
 
 export default App;
